@@ -1,0 +1,17 @@
+.textCenter{
+    text-align: center;
+}
+
+.btn-width{
+    border-radius: 5%;
+    width: 11.2vw;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.disp-font{
+    font-size: 2rem;
+    font-weight: 550;
+}

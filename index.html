@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utils.css">
+</head>
+<body>
+    <header>
+        <p>Calculator App By - <span id="element"></span></p>
+    </header>
+    <main>
+        <div class="container">
+            <div class="row1">
+                <input type="text" class="disp text-right disp-font">
+            </div>
+            <div class="row1">
+                <button class="btn">AC</button>
+                <button class="btn ">8</button>
+                <button class="btn ">%</button>
+                <button class="btn ">÷</button>
+            </div>
+            <div class="row1">
+                <button class="btn">7</button>
+                <button class="btn ">8</button>
+                <button class="btn ">9</button>
+                <button class="btn ">x</button>
+            </div>
+            <div class="row1">
+                <button class="btn">4</button>
+                <button class="btn ">5</button>
+                <button class="btn ">6</button>
+                <button class="btn ">-</button>
+            </div>
+            <div class="row1">
+                <button class="btn">1</button>
+                <button class="btn ">2</button>
+                <button class="btn ">3</button>
+                <button class="btn ">+</button>
+            </div>
+            <div class="row1">
+                <button class="btn btn-width">0</button>
+                <button class="btn ">.</button>
+                <button class="btn ">=</button>
+            </div>
+        </div>
+    </main>
+    <script src="app.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Ashish Kushwaha'],
+          typeSpeed: 100,
+        });
+      </script>
+</body>
+</html>
